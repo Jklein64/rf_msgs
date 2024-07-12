@@ -10,11 +10,7 @@ uint8 n_rx # number of antennas on the receiver antenna
 uint32 seq # packet number
 
 # RSSI of packet
-int32[] rssi
+int32 rssi
 
-# angle of arrival values computed from n_tx antennas, this must be set
-float64[] aoa # AoA in the coordinates of wifi radio
-
-# (CURRENTLY UNUSED) angle of arrival values computed at n_rx antennas
-# float64[] aod
-# float64[] aod_local
+# AoA in the coordinates of wifi radio
+float64 aoa

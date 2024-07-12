@@ -1,4 +1,4 @@
-_Part of the [WiROS](https://github.com/Jklein64/wiros?tab=readme-ov-file) Wifi sensing toolbox_
+_Part of the [WiROS](https://github.com/Jklein64/wiros) Wifi sensing toolbox_
 
 # rf_msgs
 

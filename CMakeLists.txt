@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.5)
 project(rf_msgs)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
@@ -52,6 +52,8 @@ add_message_files(
   Bearing.msg
   AccessPoints.msg
   Station.msg
+  Profile1d.msg
+  Profile2d.msg
 )
 
 ## Generate services in the 'srv' folder

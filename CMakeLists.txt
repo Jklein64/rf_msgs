@@ -49,9 +49,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   Wifi.msg
-  Bearing.msg
-  AccessPoints.msg
-  Station.msg
+  Csi.msg
+  Rssi.msg
   Profile1d.msg
   Profile2d.msg
 )

@@ -1,5 +1,5 @@
-# samples of a 2-D function plotting signal intensity profile in dB as a function of angle
-# of arrival theta (in radians) and time of flight tau (in seconds).
+# samples of a 2-D function plotting directivity profile (in arbitrary units) as a 
+# function of angle of arrival theta (in radians) and time of flight tau (in seconds).
 
 Header header
 

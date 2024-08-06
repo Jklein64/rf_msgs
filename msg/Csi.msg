@@ -13,6 +13,12 @@ uint8 n_rx
 # number of transmitting antennas.
 uint8 n_tx
 
-# csi matrix has shape (n_sub, n_rx, n_tx) in Fortran order.
+# csi matrix has shape (n_sub, n_rx, n_tx) in Fortran order. Read it as follows:
+# n_sub = msg.n_sub
+# n_rx = msg.n_rx
+# n_tx = msg.n_tx
+# csi_real = np.reshape(msg.csi_real, (n_sub, n_rx, n_tx), order="F")
+# csi_imag = np.reshape(msg.csi_imag, (n_sub, n_rx, n_tx), order="F")
+# csi = csi_real + 1.0j * csi_imag.astype(np.complex128)
 float64[] csi_real
 float64[] csi_imag

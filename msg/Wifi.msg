@@ -29,6 +29,13 @@ int32 rssi # received signal strength across "n_rows" antennas
 uint32 fc # packet type byte
 uint32 seq_num # packet number
 
+# note: to read CSI data, do the following:
+# n_sub = msg.n_sub
+# n_rows = msg.n_rows
+# n_cols = msg.n_cols
+# csi_real = np.reshape(msg.csi_real, (n_sub, n_rows, n_cols), order="F")
+# csi_imag = np.reshape(msg.csi_imag, (n_sub, n_rows, n_cols), order="F")
+# csi = csi_real + 1.0j * csi_imag.astype(np.complex128)
 float64[] csi_real # channel state information - real part
 float64[] csi_imag # channel state information - complex part
 

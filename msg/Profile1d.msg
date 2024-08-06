@@ -1,4 +1,5 @@
-# samples of a 1-D curve plotting signal intensity profile in dB as a function of angle of arrival theta (in radians).
+# samples of a 1-D curve plotting directivity profile (in arbitrary units) as a 
+# function of angle of arrival theta (in radians).
 
 Header header
 
